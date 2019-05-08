@@ -80,19 +80,49 @@ family_ages = {
 # print(cities_pop)
 
 # EXERCISE 5
-print(sum(cities_pop.values()))
+# print(sum(cities_pop.values()))
 
-for names,ages in family_ages.items():
-    if ages > 30:
-        print("{} is old.".format(names))
-    else:
-        print("{} is young.".format(names))
+# for names,ages in family_ages.items():
+#     if ages > 30:
+#         print("{} is old.".format(names))
+#     else:
+#         print("{} is young.".format(names))
 
-print(fav_colors[-2:])
+# print(fav_colors[-2:])
 
-for ages in cousin_ages:
-    print(ages + 1)
+# for ages in cousin_ages:
+#     print(ages + 1)
 
-fav_colors.append('coral')
-fav_colors.append('lime green')
-print(fav_colors)
+# fav_colors.append('coral')
+# fav_colors.append('lime green')
+# print(fav_colors)
+
+# EXERCISE 6
+listed_movies = {
+    1999: ['The Matrix', 'Star Wars: Episode 1', 'The Mummy'],
+    2009: ['Avatar','Star Trek', 'District 9'],
+    2019: ['How to Train Your Dragon 3', 'Toy Story 4', 'Star Wars: Episode 9']
+}
+phone_buttons = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    ['*', 0, '#']
+]
+country_info = [
+    {
+        'Country':'Peru',
+        'Continent': 'South America',
+        'Island': False
+    },
+    {
+        'Country':'New Zealand',
+        'Continent': 'Australia',
+        'Island': True
+    },
+    {
+        'Country': 'Chile',
+        'Continent': 'South America',
+        'Island': False
+    }
+]
