@@ -27,24 +27,39 @@ family_ages = {
     'Huoi': 33
 }
 
-# Exercise 1
+# EXERCISE 1
 # print(flipped_heads)
+
 # print(fav_colors[0])
+
 # print(sorted(cousin_ages))
+
 # cousin_ages.append('0')
 # print(cousin_ages)
+
 # print(movie_years['Hitch'])
 
-#Exercise 2
-print(fav_colors[-1])
+# EXERCISE 2
+# print(fav_colors[-1])
 
-cities_pop['Paris'] = 2.141
-print(cities_pop)
+# cities_pop['Paris'] = 2.141
+# print(cities_pop)
 
-list.reverse(flipped_heads)
-print(flipped_heads)
+# list.reverse(flipped_heads)
+# print(flipped_heads)
 
-print(cities_pop['Milan'])
+# print(cities_pop['Milan'])
 
-for artist in fav_artists:
-    print("I think {} is great.".format(artist))
+# for artist in fav_artists:
+#     print("I think {} is great.".format(artist))
+
+# EXERCISE 3
+print(fav_artists[0:2])
+
+for movie, year in movie_years.items():
+    print("{} came out in {}.".format(movie,year))
+
+print(list(reversed(sorted(cousin_ages))))
+
+movie_years['Beauty and the Beast'] = '1991', '2017'
+print(movie_years)
