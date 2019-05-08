@@ -28,13 +28,23 @@ family_ages = {
 }
 
 # Exercise 1
+# print(flipped_heads)
+# print(fav_colors[0])
+# print(sorted(cousin_ages))
+# cousin_ages.append('0')
+# print(cousin_ages)
+# print(movie_years['Hitch'])
+
+#Exercise 2
+print(fav_colors[-1])
+
+cities_pop['Paris'] = 2.141
+print(cities_pop)
+
+list.reverse(flipped_heads)
 print(flipped_heads)
 
-print(fav_colors[0])
+print(cities_pop['Milan'])
 
-print(sorted(cousin_ages))
-
-cousin_ages.append('0')
-print(cousin_ages)
-
-print(movie_years['Hitch'])
+for artist in fav_artists:
+    print("I think {} is great.".format(artist))
