@@ -26,3 +26,4 @@ for item in sorted(grocery_list):
 grocery_list.pop(1)
 for item in sorted(grocery_list):
     print('*' + ' ' + item)
+
