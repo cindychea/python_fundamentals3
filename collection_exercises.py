@@ -54,12 +54,27 @@ family_ages = {
 #     print("I think {} is great.".format(artist))
 
 # EXERCISE 3
-print(fav_artists[0:2])
+# print(fav_artists[0:2])
 
-for movie, year in movie_years.items():
-    print("{} came out in {}.".format(movie,year))
+# for movie, year in movie_years.items():
+#     print("{} came out in {}.".format(movie,year))
 
-print(list(reversed(sorted(cousin_ages))))
+# print(list(reversed(sorted(cousin_ages))))
 
-movie_years['Beauty and the Beast'] = '1991', '2017'
-print(movie_years)
+# movie_years['Beauty and the Beast'] = '1991', '2017'
+# print(movie_years)
+
+# EXERCISE 4
+under_thirty = list(filter(lambda number: number < 30, cousin_ages))
+print(under_thirty)
+
+cousin_ages.sort()
+print(cousin_ages[-1])
+
+print(flipped_heads.count(True))
+
+fav_artists.pop(1)
+print(fav_artists)
+
+cities_pop['Sydney']=4.900
+print(cities_pop)
