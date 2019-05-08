@@ -26,3 +26,15 @@ family_ages = {
     'Filly': 35,
     'Huoi': 33
 }
+
+# Exercise 1
+print(flipped_heads)
+
+print(fav_colors[0])
+
+print(sorted(cousin_ages))
+
+cousin_ages.append('0')
+print(cousin_ages)
+
+print(movie_years['Hitch'])
