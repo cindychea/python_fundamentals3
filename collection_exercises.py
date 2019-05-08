@@ -65,16 +65,34 @@ family_ages = {
 # print(movie_years)
 
 # EXERCISE 4
-under_thirty = list(filter(lambda number: number < 30, cousin_ages))
-print(under_thirty)
+# under_thirty = list(filter(lambda number: number < 30, cousin_ages))
+# print(under_thirty)
 
-cousin_ages.sort()
-print(cousin_ages[-1])
+# cousin_ages.sort()
+# print(cousin_ages[-1])
 
-print(flipped_heads.count(True))
+# print(flipped_heads.count(True))
 
-fav_artists.pop(1)
-print(fav_artists)
+# fav_artists.pop(1)
+# print(fav_artists)
 
-cities_pop['Sydney']=4.900
-print(cities_pop)
+# cities_pop['Sydney']=4.900
+# print(cities_pop)
+
+# EXERCISE 5
+print(sum(cities_pop.values()))
+
+for names,ages in family_ages.items():
+    if ages > 30:
+        print("{} is old.".format(names))
+    else:
+        print("{} is young.".format(names))
+
+print(fav_colors[-2:])
+
+for ages in cousin_ages:
+    print(ages + 1)
+
+fav_colors.append('coral')
+fav_colors.append('lime green')
+print(fav_colors)
