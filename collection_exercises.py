@@ -126,3 +126,38 @@ country_info = [
         'Island': False
     }
 ]
+
+# EXERCISE 7
+for i in range(20):
+    print("I will not skateboard in the halls")
+
+my_list = []
+for i in range(20):
+    my_list.append("I will not skateboard in the halls")
+print(my_list)
+
+one_to_fifty = []
+for i in range(1,51):
+    one_to_fifty.append(i)
+print(one_to_fifty)
+
+total = 0
+for num in one_to_fifty:
+    total += num
+print(total)
+
+triple_list = []
+for i in range(1,51):
+    triple_list.append(i)
+    triple_list.append(i)
+    triple_list.append(i)
+print(triple_list)
+
+for country in country_info:
+    if country["Island"] == False:
+        print(country["Country"])
+
+
+
+
+
