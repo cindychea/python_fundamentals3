@@ -8,5 +8,5 @@ for num in one_to_hundred:
     elif num % 5 == 0:
         print('Maker')
     else:
-        print(n
+        print(num)
 
