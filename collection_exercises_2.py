@@ -34,15 +34,15 @@ students = {
     'cohort3': 22
 }
 
-def cohort_students():
-    for cohort, number in students.items():
-        print("{}: {} students".format(cohort, number))
-cohort_students()
+# def cohort_students():
+#     for cohort, number in students.items():
+#         print("{}: {} students".format(cohort, number))
+# cohort_students()
 
-students['cohort4'] = 43
-print(students)
+# students['cohort4'] = 43
+# print(students)
 
-print(students.keys())
+# print(students.keys())
 
 # Map used here to transform the values in the dictionary
 # But is there a better way to update the dictionary as the values are transformed?
@@ -54,10 +54,10 @@ students['cohort2'] = new_students[1]
 students['cohort3'] = new_students[2]
 print(students)
 
-del students['cohort2']
-print(students)
+# del students['cohort2']
+# print(students)
 
-total = 0
-for cohort, number in students.items():
-    total += number
-print(total)
+# total = 0
+# for cohort, number in students.items():
+#     total += number
+# print(total)
