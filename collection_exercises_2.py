@@ -61,3 +61,23 @@ print(students)
 # for cohort, number in students.items():
 #     total += number
 # print(total)
+
+
+
+
+
+
+
+
+# list = ['1','2','3']
+# #counter = 0
+# for i in range(len(list)):
+#     n = list[i]
+#     nn = int(n) + 1
+#     list[i] = nn
+#     #counter += 1
+# print(list)
+
+# for cohort, number in students.items():
+#     students[cohort] = round((float(number) * 1.05), 2)
+# print(students)

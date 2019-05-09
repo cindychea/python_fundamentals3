@@ -61,7 +61,7 @@ family_ages = {
 
 # print(list(reversed(sorted(cousin_ages))))
 
-# movie_years['Beauty and the Beast'] = '1991', '2017'
+# movie_years['Beauty and the Beast'] = [1991, 2017]
 # print(movie_years)
 
 # EXERCISE 4
